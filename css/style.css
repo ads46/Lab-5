@@ -23,11 +23,11 @@ nav{
   font-size: 1.25em;
   font-weight:bold;
   text-align:center;
-  /* set margin-top to 20px */
-  /* set margin-bottom to 30px */
-  /* set padding to 10px */
-  /* set border-top to 5px solid #FFFFFF */
-  /* set border-bottom to 5px solid #FFFFFF */
+  margin-top: 20px
+  margin-bottom: 10px
+  padding: 10px
+  border-top: 5px solid #FFFFFF
+  border-bottom: 5px solid #FFFFFF
 }
 
 
@@ -35,30 +35,29 @@ nav{
   display: block;
   font-family:Calibri, Arial,sans-serif;
   font-size:1em;
-  /* set margin-top to 20px  */
-  /* set margin-bottom to 10px  */
-  /* set padding to 20px  */
-  /* set border-radius to 10px  */
-  /* set background-color:#FFFFFF; */
-  /* set box-shadow:12px 12px 12px #404040; */
+  margin-top: 20px
+  margin-bottom: 10px
+  padding: 10px
+  border-radius: 10px
+  background-color: #FFFFFF
+  box-shadow: 12px 12px 12px #404040.;
 }
 
-/* Style a footer  */
-  /*set font-size to .70em  */
-  /*set text-align to center */
-  /*set margin-top to 150px */
+<footer
+  font-size: .70em;
+  text-align: center
+  margin-top: 150p
+
+<p class="column">
+ float: left;
+ tpadding-left: 10%
 
 
 
 
-/*Style Classics page */
 
-  /*create column class */
-  /*set float property to left  */
-  /*set padding-left property to 10%  */
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-}
